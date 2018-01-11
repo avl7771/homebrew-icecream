@@ -50,6 +50,7 @@ class Icecream < Formula
       </array>
       <key>RunAtLoad</key>
       <true/>
+    </dict>
     </plist>
     EOS
   end
