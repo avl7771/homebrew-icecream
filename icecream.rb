@@ -3,6 +3,7 @@ class Icecream < Formula
   homepage "https://en.opensuse.org/Icecream"
   url "https://github.com/avl7771/icecream/archive/v1.2pre.tar.gz"
   sha256 "4d11aced52ed256f3217b49c295c2d7bb825919c2cc0e129059897f77a554922"
+  revision 1
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
