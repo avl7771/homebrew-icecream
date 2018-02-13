@@ -1,8 +1,8 @@
 class Icecream < Formula
   desc "Distributed compiler with a central scheduler to share build load"
   homepage "https://en.opensuse.org/Icecream"
-  url "https://github.com/avl7771/icecream/archive/v1.2pre2.tar.gz"
-  sha256 "ef1baa8827d2baac8bf635f1047064fb22e9add66e66bfaa2f4955f246a4ee5b"
+  url "https://github.com/avl7771/icecream/archive/v1.2pre3.tar.gz"
+  sha256 "a112e7db2427e7aabe4626c65fded2d062e1b4809c087d505635b89a07114af4"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
@@ -14,7 +14,7 @@ class Icecream < Formula
     args = %W[
       --disable-dependency-tracking
       --disable-silent-rules
-      --enable-clang-write-includes
+      --enable-clang-rewrite-includes
       --prefix=#{prefix}
     ]
 
