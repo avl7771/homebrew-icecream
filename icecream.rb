@@ -8,7 +8,7 @@ class Icecream < Formula
   depends_on "automake" => :build
   depends_on "libtool" => :build
   depends_on "lzo"
-  depends_on "docbook2X" => :build
+  depends_on "docbook2x" => :build
 
   def install
     args = %W[
